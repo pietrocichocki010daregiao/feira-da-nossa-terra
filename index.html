@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça a Feira Alimentar de Santa Izabel do Oeste e região. Valorize os produtores locais e encontre alimentos frescos.">
+  <title>Feira da Nossa Terra | Santa Izabel do Oeste</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="logo" href="#inicio"><span class="logo-icon"></span> Feira da Nossa Terra</a>
+      <div class="links">
+        <a href="#sobre">Sobre</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#produtores">Produtores</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-conteudo container">
+        <div class="hero-texto">
+          <span class="etiqueta">Santa Izabel do Oeste e região</span>
+          <h1>O melhor da nossa terra, <em>perto de você.</em></h1>
+          <p>Um espaço para divulgar alimentos fresquinhos, valorizar a agricultura familiar e aproximar quem produz de quem consome.</p>
+          <a class="botao" href="#produtos">Conheça os produtos <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-imagem" role="img" aria-label="Cesta com frutas, verduras e legumes frescos">
+          <div class="selo">🌽<br><strong>Valorize</strong><br>o produtor local</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="beneficios container" aria-label="Benefícios da feira">
+      <article class="beneficio"><span></span><div><h3>Alimentos frescos</h3><p>Mais qualidade no dia a dia.</p></div></article>
+      <article class="beneficio"><span></span><div><h3>Apoio local</h3><p>Fortalecimento dos pequenos produtores.</p></div></article>
+      <article class="beneficio"><span></span><div><h3>Da nossa região</h3><p>Produtos feitos perto de você.</p></div></article>
+    </section>
+
+    <section class="secao sobre" id="sobre">
+      <div class="container sobre-grid">
+        <div>
+          <span class="subtitulo">Nossa proposta</span>
+          <h2>Uma feira que aproxima a comunidade</h2>
+        </div>
+        <div>
+          <p>A Feira da Nossa Terra é uma proposta de divulgação digital para a feira alimentar de Santa Izabel do Oeste e municípios próximos. O site reúne informações sobre produtos e produtores, ajudando a comunidade a descobrir opções de compra de alimentos locais.</p>
+          <p>Além de facilitar o acesso às informações, a iniciativa incentiva a agricultura familiar, movimenta a economia regional e valoriza o trabalho de quem produz.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao container" id="produtos">
+      <div class="cabecalho-secao">
+        <div><span class="subtitulo">Da produção local</span><h2>O que você pode encontrar</h2></div>
+        <p>Exemplos de produtos que podem ser divulgados na feira.</p>
+      </div>
+      <div class="cards">
+        <article class="produto"><div class="produto-foto foto-verduras"></div><div class="produto-info"><span class="categoria">Hortifruti</span><h3>Verduras e legumes</h3><p>Alimentos frescos para deixar suas refeições mais saudáveis.</p></div></article>
+        <article class="produto"><div class="produto-foto foto-coloniais"></div><div class="produto-info"><span class="categoria">Coloniais</span><h3>Queijos e derivados</h3><p>Produtos artesanais feitos por produtores da região.</p></div></article>
+        <article class="produto"><div class="produto-foto foto-doces"></div><div class="produto-info"><span class="categoria">Artesanais</span><h3>Mel, doces e geleias</h3><p>Sabores tradicionais preparados com cuidado.</p></div></article>
+        <article class="produto"><div class="produto-foto foto-panificados"></div><div class="produto-info"><span class="categoria">Panificação</span><h3>Pães e bolachas</h3><p>Opções caseiras para o café da manhã e da tarde.</p></div></article>
+      </div>
+      <p class="observacao">Observação: as categorias acima são exemplos para a demonstração do projeto. A lista real pode ser atualizada com os produtos e produtores participantes.</p>
+    </section>
+
+    <section class="secao produtores" id="produtores">
+      <div class="container produtores-grid">
+        <div class="produtores-texto">
+          <span class="subtitulo">Quem faz acontecer</span>
+          <h2>Valorizar o produtor é fortalecer a região.</h2>
+          <p>A agricultura familiar tem papel importante no abastecimento e na economia dos municípios. O site oferece um espaço para que produtores divulguem seu trabalho e para que consumidores encontrem alimentos da região.</p>
+          <a class="botao botao-claro" href="#contato">Quero divulgar minha produção</a>
+        </div>
+        <div class="lista-destaques">
+          <div><span>01</span><p>Mais visibilidade para pequenos produtores.</p></div>
+          <div><span>02</span><p>Contato mais fácil entre produtor e consumidor.</p></div>
+          <div><span>03</span><p>Incentivo à compra e ao consumo local.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao container contato" id="contato">
+      <div class="cabecalho-secao">
+        <div><span class="subtitulo">Fale com a gente</span><h2>Quer participar ou divulgar seus produtos?</h2></div>
+        <p>Preencha o formulário de demonstração para manifestar seu interesse.</p>
+      </div>
+      <form class="formulario" action="#" method="get">
+        <label for="nome">Seu nome</label>
+        <input id="nome" name="nome" type="text" placeholder="Digite seu nome" required>
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" placeholder="voce@email.com" required>
+        <label for="assunto">Como deseja participar?</label>
+        <select id="assunto" name="assunto" required>
+          <option value="">Selecione uma opção</option>
+          <option>Sou produtor(a)</option>
+          <option>Quero comprar produtos</option>
+          <option>Quero saber mais sobre a feira</option>
+        </select>
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem"></textarea>
+        <button class="botao" type="submit">Enviar <span aria-hidden="true">→</span></button>
+      </form>
+      <p class="observacao">Formulário demonstrativo: para receber mensagens de verdade, será necessário conectar o formulário a um serviço ou servidor. Nesta versão, o site utiliza somente HTML e CSS.</p>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape-conteudo">
+      <a class="logo logo-rodape" href="#inicio">🌱 Feira da Nossa Terra</a>
+      <p>Projeto acadêmico • Santa Izabel do Oeste e região – PR</p>
+      <a href="#inicio">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
